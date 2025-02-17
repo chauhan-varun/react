@@ -6,7 +6,7 @@ const BulbPovider =({children})=>{
         <Bulb.Provider value={{
             bulbOn: bulbOn,
             setBulbOn: setBulbOn
-        }} >
+        }} > 
             {children}
         </Bulb.Provider>
     </div>
